@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+}
+
+/*
+	navigation actors
+
+	-header
+	-heading
+	-cards
+	-section
+
+	
+*/
+
+
+/*cards*/
+
+.cards {
+	margin-top: 90px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	padding: 0 50px;
+}
+
+.cards__item {
+	margin-left: 188px;
+}
+
+.cards__item:first-child {
+	margin-left: 0;
+}
+
+.cards__text {
+	font-size: 16px;
+	font-weight: bold;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 137px;
+}
+
+/*section*/
+
+.section {
+	background: #F3F3F3;
+	margin-bottom: 136px;
+	height: 300px;
+}
+
+.section__text {
+	width: 100%;
+	font-style: italic;
+	font-size: 55px;
+	line-height: 55px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.section img {
+	padding-right: 148px;
+	margin-top: -30px;
+	margin-left: 86px;
+}
+
+/*content*/
+
+.content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+.content__item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 150px;
+	margin-bottom: 110px;
+}
+
+
+.content__item_descr {
+	margin-left: 100px;
+}
+
+.content__item_title {
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	color: #B91818;
+	width: 60%;		
+}
+
+.content__item_text {
+	font-size: 16px;
+	margin-top: 24px;
+	margin-bottom: 67px;
+}
+
+.content__item_more {
+	width: 267.41px;
+	height: 55px;
+	background-color: transparent;
+	border: .5px solid #4D1717;
+	text-align: center;
+	font-size: 16px;
+}

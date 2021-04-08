@@ -1,0 +1,424 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+}
+
+/*navigation lifestyle
+
+	-header
+	-heading
+	-theam
+	-cards
+	-section
+	-video
+	-footer
+
+*/
+
+/*header*/
+.icon__section {
+	margin-top: 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 100px;
+}
+
+.icon__section img {
+	margin-left: 36px;
+}
+
+.header__shop {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	outline: none !important;
+}
+
+.line {
+	width: 300px;
+	border-top: 2px solid #DF96B3;
+	margin: 37px auto;
+	padding-left: 20px;
+}
+
+.header__title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 50px;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+	color: #DF96B3;
+	text-align: center;
+	/*text-decoration: overline;*/
+	font-family: 'Playfair Display', serif;
+}
+
+nav {
+	width: 1100px;
+	border-bottom: 1px solid #DF96B3;
+	margin: 35px auto 0;
+}
+
+.nav__list {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.nav__item {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.nav__link {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	line-height: 50px;
+	letter-spacing: 0.01em;
+	color: #000;
+}
+
+.nav__link:hover {
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+
+/*heading*/
+
+.bg {
+	background: #F3F3F3;
+}
+
+.heading__title {
+	margin-top: 55px;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 155px;
+	line-height: 86px;
+	color: #000;
+}
+
+.heading__text {
+	width: 70%;
+	margin: 89px auto 55px;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: 0.01em;
+}
+
+
+/*theam*/
+
+.theam {
+	margin-top: 80px;
+}
+
+.subtitle {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 33px;
+	color: #000;
+	line-height: 86px;
+	overflow: hidden;
+}
+
+.subtitle:before,
+.subtitle:after {
+	content: ' ';
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	width: 100%;
+	height: 2px;
+	background: #DF96B3;
+	border: solid #FFF;
+	border-width: 0 10px;
+}
+
+.subtitle:before {
+	margin-left: -100%;
+}
+
+.subtitle:after {
+	margin-right: -100%;
+}
+
+.images {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 8px;
+	margin-top: 15px;
+	margin-left: 248px;
+}
+
+.foot__text {
+	text-align: center;
+	margin-top: 17px;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	color: #B91818;
+	margin-left: 240px;
+}
+
+.foot__text:last-child {
+	white-space: nowrap;
+	margin-left: 240px;
+}
+
+.icons {
+	margin-left: 162px;
+	margin-right: 183px;
+}	
+
+.icons img {
+	max-width: 80px !important;
+	height: auto;
+}
+
+.icons td{
+	color: #000;
+	letter-spacing: 0.1em;
+	font-size: 16px;
+	padding-left: 29px;
+	padding-top: 35px;
+}
+
+/*cards*/
+
+.cards {
+	margin-top: 144px;
+	background-color: #F3F3F3;
+	padding: 48px 93px;
+}
+
+.cards__title {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 33px;
+	line-height: 86px;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.cards__text {
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 0.01em;
+	color: #000000;
+	margin-bottom: 35px;
+	position: relative;
+	padding-left: 90px;
+}
+
+.cards__text:before {
+	content: url('../img/lifestyle/diam.png');
+	position: absolute;
+	left: 0;
+}
+
+
+/*section*/
+
+.bg__section {
+	height: 300px;
+	background-color: #F3F3F3;
+	margin-top: 135px;
+	padding: 0;
+}
+
+.section {
+	height: 186px;
+	background-color: #F2B3C8;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	padding: 35px;	
+	margin: 0;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.section__second {
+	border-right: 2px solid #FFF;
+	border-left: 2px solid #FFF;
+}
+
+.section__text {
+	width: 65%;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #000000;
+}
+
+/*video*/
+
+.video {
+	margin-top: 90px;
+}
+
+.video__bg {
+	background: url('../img/lifestyle/фон.png') no-repeat;
+}
+
+
+/*footer*/
+
+footer {
+	background-color: #E2E1E1;
+	padding-top: 32px;
+	height: auto;
+}
+
+.footer__container {
+	height: 300px;
+	background: #F3F3F3;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+
+.footer__container_title {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 270px;
+	line-height: 86px;
+	color: #E2E1E1;
+}
+
+
+.footer__container_icons {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.footer__container_icons img {
+	margin-left: 23px;
+}
+
+.footer__list {
+	text-align: center;
+}
+
+.footer__item {
+	display: inline-block;
+	font-size: 14px;
+	color: #000;
+	line-height: 86px;
+	margin-left: 25px;
+	margin-top: 24px;
+}
+
+
+.footer__text {
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	margin: 0; 
+}
+
+
+/*tablet*/
+
+@media(max-width: 1100px) {
+	nav {
+		width: 100%;
+	}
+
+	.nav__list {
+		width: 100%;
+	}
+
+	.heading__title {
+		font-size: 105px;
+	}
+
+	.heading__text {
+		width: 100%;
+	}
+		
+	.images {
+		margin-left: 0;
+	}
+
+	.foot__text {
+		margin-left: 0;
+	}
+
+	.foot__text:last-child {
+		margin-left: 0;
+	}	
+
+	.icons {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.video__bg {
+		background: transparent;
+	}
+
+	.section__text {
+		width: 100%;
+	}
+}
+
+@media(max-width: 768px) {
+	.footer__container {
+		height: 180px;
+	}
+
+	.footer__container_title {
+		font-size: 160px;
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	.nav__list {
+		width: 100%;
+	}
+}
